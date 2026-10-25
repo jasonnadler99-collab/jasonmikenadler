@@ -1,0 +1,9 @@
+In diesen Ordner kommt später dein öffentlicher Lebenslauf als PDF.
+
+Dateiname: lebenslauf.pdf
+
+WICHTIG: Bitte eine Version OHNE Anschrift, Telefonnummer und Geburtsdatum verwenden.
+Alles, was in diesem Ordner liegt, ist nach der Veröffentlichung für jeden im Internet abrufbar.
+
+Wie du danach den Link auf der Website einschaltest, steht in README.md unter
+"Lebenslauf als PDF ergänzen". Diese Textdatei kannst du anschließend löschen.

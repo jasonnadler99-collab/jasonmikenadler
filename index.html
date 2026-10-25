@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jason Mike Nadler</title>
+  <meta name="description" content="Jason Mike Nadler aus Berlin: in der Ausbildung zum Sozialpädagogischen Assistenten, mit Freude an Technik, Musik und praktischen Projekten.">
+  <meta name="author" content="Jason Mike Nadler">
+
+  <!-- Sprachversionen dieser Seite -->
+  <link rel="alternate" hreflang="de" href="index.html">
+  <link rel="alternate" hreflang="en" href="en/index.html">
+
+  <!-- Vorschau beim Teilen (Open Graph).
+       TODO nach der Veröffentlichung: "og:image" durch die vollständige Adresse ersetzen,
+       z. B. https://DEIN-NAME.github.io/DEIN-REPO/assets/images/og-vorschau.png -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Jason Mike Nadler">
+  <meta property="og:description" content="Jason Mike Nadler aus Berlin: in der Ausbildung zum Sozialpädagogischen Assistenten, mit Freude an Technik, Musik und praktischen Projekten.">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:image" content="assets/images/og-vorschau.png">
+
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Setzt den gespeicherten Hell/Dunkel-Modus sofort, damit die Seite nicht kurz "aufblitzt" -->
+  <script>
+    (function () {
+      var root = document.documentElement;
+      root.classList.add("js");
+      try {
+        var saved = localStorage.getItem("theme");
+        if (saved === "light" || saved === "dark") root.setAttribute("data-theme", saved);
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
+
+  <!-- ===== KOPFBEREICH (auf allen Seiten gleich) ===== -->
+  <header class="site-header">
+    <div class="wrap site-header__inner">
+      <a class="brand" href="index.html" aria-label="Jason Nadler – zur Startseite">Jason Nadler</a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Hauptnavigation">
+        <ul>
+          <li><a href="index.html" aria-current="page">Start</a></li>
+          <li><a href="ueber-mich.html">Über mich</a></li>
+          <li><a href="werdegang.html">Werdegang</a></li>
+          <li><a href="sozialpaedagogik.html">Sozialpädagogik</a></li>
+          <li><a href="projekte.html">Projekte</a></li>
+          <li><a href="interessen.html">Interessen</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-tools">
+        <a class="tool-btn" href="en/index.html" hreflang="en" lang="en" aria-label="English version of this page">EN</a>
+        <button class="tool-btn theme-toggle" type="button" aria-label="Dunklen Modus umschalten" aria-pressed="false">
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        </button>
+        <button class="tool-btn menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Menü">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"/></svg><span class="menu-toggle__label" aria-hidden="true">Menü</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="inhalt">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero__grid">
+        <div>
+          <p class="hero__hello">Hallo, ich bin</p>
+          <h1 id="hero-title"><span>Jason Mike</span> <span>Nadler.</span></h1>
+          <p class="hero__statement">Ich arbeite gern mit Menschen, mit den Händen und am Computer – und am liebsten dort, wo sich das verbindet.</p>
+          <p class="lead">Gerade bin ich im ersten Ausbildungsjahr zum Sozialpädagogischen Assistenten in Berlin. Vorher habe ich Einblicke in Gleisbau, Küche und Holzwerkstatt bekommen und in einer Kinder- und Jugendfreizeiteinrichtung mitgearbeitet. Nebenbei baue ich eigene Websites.</p>
+          <div class="btn-row">
+            <a class="btn" href="ueber-mich.html">Mehr über mich</a>
+            <a class="btn btn--ghost" href="kontakt.html">Kontakt aufnehmen</a>
+          </div>
+        </div>
+        <div class="hero__portrait">
+          <!-- BILD-PLATZHALTER: Porträtfoto
+               So ersetzt du ihn: Foto als assets/images/portrait.jpg speichern und diesen ganzen
+               <div class="photo-placeholder">…</div>-Block ersetzen durch:
+               <img class="photo" src="assets/images/portrait.jpg" alt="Porträt von Jason Mike Nadler" width="800" height="1000"> -->
+          <div class="photo-placeholder" role="img" aria-label="Platzhalter für ein Porträtfoto">
+            <span class="photo-placeholder__mark" aria-hidden="true">JN</span>
+            <span class="photo-placeholder__label" aria-hidden="true">Foto folgt</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap" aria-labelledby="route-title">
+      <h2 id="route-title">Meine Stationen bisher</h2>
+      <p>Ein kurzer Überblick. Die ausführliche Strecke mit allen Abschnitten findest du unter <a href="werdegang.html">Werdegang</a>.</p>
+      <ol class="route">
+        <li><span class="route__year">2021–2025</span><span class="route__what">Oberschule, Berufsbildungsreife</span></li>
+        <li><span class="route__year">2023–2025</span><span class="route__what">Praxis in Gleisbau, Küche und Holzbereich</span></li>
+        <li><span class="route__year">2025–2026</span><span class="route__what">Kinder- und Jugendfreizeiteinrichtung, Bundesfreiwilligendienst</span></li>
+        <li class="is-current"><span class="route__year">seit 2026</span><span class="route__what">Ausbildung zum Sozialpädagogischen Assistenten</span></li>
+      </ol>
+    </section>
+
+    <section class="section wrap" aria-labelledby="projekt-title">
+      <h2 id="projekt-title">Ein eigenes Projekt</h2>
+      <article class="project">
+        <div class="project__body">
+          <p class="project__meta">Eigenes Webprojekt, umgesetzt mit HTML, CSS und JavaScript</p>
+          <h3>Prüfstand</h3>
+          <p>Prüfstand ist eine Lern- und Quizwebsite, die ich selbst entwickelt habe. Mit kurzen Wissenstests kann man sich mit Alltagsthemen beschäftigen, die gerade für junge Menschen wichtig sind. Die Seite ist kostenlos und ohne Anmeldung nutzbar.</p>
+          <ul class="topic-list" aria-label="Themen">
+          <li>E-Scooter & Straßenverkehr</li>
+          <li>Verkehrsregeln</li>
+          <li>Jugendschutz</li>
+          <li>Drogen</li>
+          <li>Vapes</li>
+          <li>Datenschutz</li>
+          </ul>
+          <a class="btn" href="https://jasonnadler99-collab.github.io/pruefstand/index.html" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 4h6v6"/><path d="M20 4l-9 9"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>Projekt ansehen<span class="visually-hidden"> (öffnet in neuem Tab)</span></a>
+        </div>
+        <div class="quiz-preview" role="img" aria-label="Illustration einer Quizfrage">
+          <div class="quiz-preview__bar"><span></span></div>
+          <p class="quiz-preview__q" aria-hidden="true">Darf man mit einem E-Scooter auf dem Gehweg fahren?</p>
+          <div class="quiz-preview__opt">Ja, wenn wenig los ist</div>
+          <div class="quiz-preview__opt is-picked">Nein, grundsätzlich nicht</div>
+          <div class="quiz-preview__opt">Nur mit Helm</div>
+          <p class="quiz-preview__caption" aria-hidden="true">Illustration im Stil eines Quiz – keine Bildschirmaufnahme der Website.</p>
+        </div>
+      </article>
+      <p class="muted" style="margin-top:1rem"><a href="projekte.html">Alle Projekte ansehen</a></p>
+    </section>
+
+    <section class="section wrap" aria-labelledby="interessen-title">
+      <h2 id="interessen-title">Was mich interessiert</h2>
+      <ul class="interest-strip">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="8" cy="8" r="3"/><circle cx="17" cy="9.5" r="2.4"/><path d="M2.5 20c.6-3.5 2.9-5.5 5.5-5.5s4.9 2 5.5 5.5"/><path d="M14 15c.9-.6 1.9-.9 3-.9 2.2 0 4 1.6 4.5 4.9"/></svg>Arbeit mit Kindern und Jugendlichen</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M8 7l-5 5 5 5"/><path d="M16 7l5 5-5 5"/><path d="M13.5 4l-3 16"/></svg>Technik und Digitales</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.5-.5-.5-2.5z"/></svg>Handwerk und praktische Projekte</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9 18V5l11-2v13"/><circle cx="6.5" cy="18" r="2.5"/><circle cx="17.5" cy="16" r="2.5"/></svg>Musik</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18"/><path d="M6.5 6.5h.01M9 6.5h.01"/><path d="M8 14l2 2 4-4"/></svg>Eigene Webprojekte</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M12 3.5c2.5 2.3 3.8 5.1 3.8 8.5s-1.3 6.2-3.8 8.5"/><path d="M12 3.5C9.5 5.8 8.2 8.6 8.2 12s1.3 6.2 3.8 8.5"/><path d="M3.5 12h17"/></svg>Bewegung</li>
+      </ul>
+      <p style="margin-top:1rem"><a href="interessen.html">Zu den Interessen</a></p>
+    </section>
+
+    <section class="section wrap" aria-labelledby="kontakt-title">
+      <div class="contact-band">
+        <div>
+          <h2 id="kontakt-title">Lust auf einen Austausch?</h2>
+          <p class="muted" style="margin:0.4rem 0 0">Am einfachsten erreichst du mich per E-Mail.</p>
+        </div>
+        <a class="btn" href="mailto:jasonmikenadler@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 6l8.5 7 8.5-7"/></svg>E-Mail schreiben</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER (auf allen Seiten gleich) ===== -->
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="site-footer__grid">
+        <div>
+          <p class="site-footer__name">Jason Mike Nadler</p>
+          <p class="muted">Persönliche Website von Jason Mike Nadler – Sozialpädagogik, Technik und praktische Projekte.</p>
+        </div>
+        <div>
+          <h2 class="visually-hidden">Kontakt</h2>
+          <ul>
+            <li><a href="mailto:jasonmikenadler@gmail.com">jasonmikenadler@gmail.com</a></li>
+            <li><a href="https://www.instagram.com/jasonmikenadler/" target="_blank" rel="noopener noreferrer">Instagram<span class="visually-hidden"> (öffnet in neuem Tab)</span></a></li>
+            <li><a href="https://jasonnadler99-collab.github.io/pruefstand/index.html" target="_blank" rel="noopener noreferrer">Prüfstand<span class="visually-hidden"> (öffnet in neuem Tab)</span></a></li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="visually-hidden">Rechtliches</h2>
+          <ul>
+            <li><a href="impressum.html">Impressum</a></li>
+            <li><a href="datenschutz.html">Datenschutz</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="site-footer__bottom">© <span data-year>2026</span> Jason Mike Nadler. Ohne Tracking, ohne Cookies.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
